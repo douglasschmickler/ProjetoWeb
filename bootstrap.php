@@ -20,15 +20,21 @@
 
 </head>
 <body>
+    
     <?php
-
     include_once("menu.php");
-    
-    include_once("footer.php");
-
-    
     ?>
 
+    <section id="img-cafe">
+        <div>
+            <img src="Imagens/cafe.jpg" class="" alt="" height="10%" width="100%">
+        </div>
+    </section>
+
+    <?php
+    include_once("heroes.php");
+    include_once("footer.php");
+    ?>
 
 </body>
 
